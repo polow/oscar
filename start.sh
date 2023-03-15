@@ -11,4 +11,11 @@ sudo apt-get install -y libgdal-dev
 
 sudo aptitude install -y libgdal-dev
 sudo apt install -y libgdal-dev
-conda info
+
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
+bash ~/miniconda.sh -b -p $HOME/miniconda
+
+eval "$(/Users/jsmith/miniconda/bin/conda shell.venv hook)"
+
+conda init
+
