@@ -16,5 +16,5 @@ wget https://docs.conda.io/en/latest/miniconda.html?ref=learn-ubuntu#linux-insta
 
 bash ~/miniconda.sh -b -p $HOME/miniconda
 
-ls
-conda list
+conda listeval "$(~/miniconda/bin/conda shell.bash hook)"
+conda init
