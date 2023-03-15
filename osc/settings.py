@@ -221,7 +221,7 @@ FEGNO_SHEETS_ACCESS_KEY = os.environ.get('FEGNO_SHEETS_ACCESS_KEY')
 ACCESS_SERVICE_ACCOUNT = os.environ.get('ACCESS_SERVICE_ACCOUNT')
 
 
-WEBSITE_EMAIL_RECEIVER = "abchauzdigital@gmail.com"
+WEBSITE_EMAIL_RECEIVER = "polow2010@gmail.com"
 
 # SESSION_COOKIE_DOMAIN = '.abchauz.com'
 # BASKET_COOKIE_DOMAIN = SESSION_COOKIE_DOMAIN
@@ -231,23 +231,23 @@ WEBSITE_EMAIL_RECEIVER = "abchauzdigital@gmail.com"
 
 
 ADMINS = [
-    "jerinisready@gmail.com",
-    "abhishek@fegno.com"
+    "polow2010@gmail.com",
+    "polow2010@gmail.com"
 ]
 
 MANAGERS = [
-    "manoj@fegno.com"
-    "jerinisready@gmail.com",
+    "polow2010@gmail.com"
+    "polow2010@gmail.com",
 ]
 
 
 
 
 
-DB_HOST=<DB_HOST>
-DB_NAME=<DB_NAME>
-DB_USER=<DB_USER>
-DB_PASSWORD=<DB_PASSWORD>
+DB_HOST=containers-us-west-93.railway.app
+DB_NAME=railway
+DB_USER=postgres
+DB_PASSWORD=UIy9c8ow2W4QlYpJX3HA
 IN_PRODUCTION=False
 DEBUG=True    
 
@@ -259,9 +259,9 @@ STRIPE_LIVE_PUBLIC_KEY=
 STRIPE_LIVE_SECRET_KEY=
 STRIPE_TEST_PUBLIC_KEY=pk_test_pwwR9T.....................QytrBk9
 STRIPE_TEST_SECRET_KEY=sk_test_5LiCrh.....................kbs47HE
-STRIPE_EMAIL=jer......dy@g....com
+STRIPE_EMAIL=polow2010@gmail.com
 
-STRIPE_LIVE_MODE=off                 # Change to 'on' in production
+STRIPE_LIVE_MODE=oon                 # Change to 'on' in production
 DJSTRIPE_WEBHOOK_SECRET="whsec_xxx"  # Get it from the section in the Stripe dashboard where you added the webhook endpoint
 
 RAZOR_PAY_MERCHANT_ID=Ewb2..........M1
