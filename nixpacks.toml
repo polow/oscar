@@ -1,4 +1,4 @@
 [phases.setup]
-nixPkgs = []
+nixPkgs = ["python39"]
 aptPkgs = ["postgresql", "gcc", "wget"]
 cmds = ["chmod +x start.sh", "./start.sh"]
