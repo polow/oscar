@@ -1,4 +1,3 @@
 [phases.setup]
-nixPkgs = ["python39"]
-aptPkgs = ["postgresql", "gcc", "wget"]
+nixPkgs = ["...", "conda"]
 cmds = ["chmod +x start.sh", "./start.sh"]
