@@ -11,3 +11,4 @@ sudo apt-get install -y libgdal-dev
 
 sudo aptitude install -y libgdal-dev
 sudo apt install -y libgdal-dev
+conda info
