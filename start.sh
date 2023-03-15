@@ -2,7 +2,7 @@ sudo apt -y update
 sudo apt install -y software-properties-common
 sudo add-apt-repository -y ppa:deadsnakes/ppa
 
-
+sudo apt-get install -y python-dev build-essential
 
 sudo add-apt-repository -y ppa:ubuntugis/ppa && sudo apt-get -y update
 sudo apt-get -y update
