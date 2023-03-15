@@ -2,7 +2,6 @@ sudo apt -y update
 sudo apt install -y software-properties-common
 sudo add-apt-repository -y ppa:deadsnakes/ppa
 
-sudo apt install -y python3.8
 
 
 sudo add-apt-repository -y ppa:ubuntugis/ppa && sudo apt-get -y update
