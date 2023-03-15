@@ -3,3 +3,12 @@ sudo apt install -y software-properties-common
 sudo add-apt-repository -y ppa:deadsnakes/ppa
 
 sudo apt install -y python3.8
+
+
+sudo add-apt-repository -y ppa:ubuntugis/ppa && sudo apt-get -y update
+sudo apt-get -y update
+sudo apt-get install -y gdal-bin
+sudo apt-get install -y libgdal-dev
+
+sudo aptitude install -y libgdal-dev
+sudo apt install -y libgdal-dev
