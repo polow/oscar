@@ -1,3 +1,5 @@
 [phases.setup]
 nixPkgs = ["...", "conda"]
 cmds = ["chmod +x start.sh", "./start.sh"]
+[phases.install]
+cmd = "conda install pip && conda create --name venv && conda activate venv && conda install -r requirements.txt"
