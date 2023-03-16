@@ -21,6 +21,8 @@ sha256sum anaconda.sh
 
 bash anaconda.sh -b -p $HOME/miniconda
 
+eval "$(/Users/root/miniconda/bin/conda shell.zsh hook)"
+
 source ~/.bashrc
 
 conda list
