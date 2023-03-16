@@ -13,7 +13,7 @@ sudo apt install -y software-properties-common
 # sudo apt install -y libgdal-dev
 sudo apt install curl -y
 
-#cd /tmp
+cd /tmp/
 
 curl https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh --output anaconda.sh
 
