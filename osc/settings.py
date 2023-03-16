@@ -264,11 +264,11 @@ STRIPE_EMAIL=polow2010@gmail.com
 STRIPE_LIVE_MODE=on                 # Change to 'on' in production
 DJSTRIPE_WEBHOOK_SECRET="whsec_xxx"  # Get it from the section in the Stripe dashboard where you added the webhook endpoint
 
-RAZOR_PAY_MERCHANT_ID=Ewb2M1
-RAZOR_PAY_LIVE_PUBLIC_KEY=sfgsdfsdv
-RAZOR_PAY_LIVE_SECRET_KEY=sdvsdfv
-RAZOR_PAY_TEST_PUBLIC_KEY=rzp_test_inQ70Z
-RAZOR_PAY_TEST_SECRET_KEY=M9eHM0YwWZYrxPi
+#RAZOR_PAY_MERCHANT_ID=Ewb2M1
+#RAZOR_PAY_LIVE_PUBLIC_KEY=sfgsdfsdv
+#RAZOR_PAY_LIVE_SECRET_KEY=sdvsdfv
+#RAZOR_PAY_TEST_PUBLIC_KEY=rzp_test_inQ70Z
+#RAZOR_PAY_TEST_SECRET_KEY=M9eHM0YwWZYrxPi
 RAZOR_PAY_EMAIL=jerinisready@gmail.com
 RAZOR_PAY_LIVE_MODE=on                 # Change to 'on' in production
 FAST_2_SMS_SENDER_ID='SMSIND'
