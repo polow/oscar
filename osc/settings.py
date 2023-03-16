@@ -266,7 +266,7 @@ HAYSTACK_CONNECTIONS = {
     },
 }
 
-GDAL_LIBRARY_PATH = '/home/sue/local/lib/libgdal.so'
+GDAL_LIBRARY_PATH = '/home/root/local/lib/libgdal.so'
 
 #STRIPE_LIVE_PUBLIC_KEY=
 #STRIPE_LIVE_SECRET_KEY=
