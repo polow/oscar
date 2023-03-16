@@ -274,4 +274,4 @@ RAZOR_PAY_LIVE_MODE=on                 # Change to 'on' in production
 FAST_2_SMS_SENDER_ID='SMSIND'
 FAST_2_SMS_API_KEY="eTVuoO.................I12YUB..........................615eNu"
 FAST_2_SMS_TEMPLATE_ID=14782
-FCM_API_KEY=AAAAIdKjsl4:APA9msJ7-2FaM8kf_D8c23jj-gKGPCf
+#FCM_API_KEY=AAAAIdKjsl4:APA9msJ7-2FaM8kf_D8c23jj-gKGPCf
