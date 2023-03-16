@@ -30,3 +30,6 @@ source /root/miniconda/bin/activate
 conda init bash
 
 conda list
+source ~/.bashrc
+conda config --set auto_activate_base True
+conda
