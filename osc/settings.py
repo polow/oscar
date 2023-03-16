@@ -252,7 +252,7 @@ IN_PRODUCTION=False
 DEBUG=True    
 
 HAYSTACK_ENGINE=haystack.backends.simple_backend.SimpleEngine #(currentlu not using)
-HAYSTACK_URL=
+# HAYSTACK_URL=
 HAYSTACK_INCLUDE_SPELLING=True
 
 STRIPE_LIVE_PUBLIC_KEY=
