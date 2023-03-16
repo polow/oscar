@@ -244,10 +244,10 @@ MANAGERS = [
 
 
 
-DB_HOST=containers-us-west-93.railway.app
-DB_NAME=railway
-DB_USER=postgres
-DB_PASSWORD=UIy9c8ow2W4QlYpJX3HA
+DB_HOST="containers-us-west-93.railway.app"
+DB_NAME="railway"
+DB_USER="postgres"
+DB_PASSWORD="UIy9c8ow2W4QlYpJX3HA"
 IN_PRODUCTION=False
 DEBUG=True    
 
