@@ -259,7 +259,7 @@ HAYSTACK_INCLUDE_SPELLING=True
 #STRIPE_LIVE_SECRET_KEY=
 #STRIPE_TEST_PUBLIC_KEY=pk_test_pwwR9T.....................QytrBk9
 #STRIPE_TEST_SECRET_KEY=sk_test_5LiCrh.....................kbs47HE
-STRIPE_EMAIL=polow2010@gmail.com
+STRIPE_EMAIL="polow2010@gmail.com"
 
 STRIPE_LIVE_MODE=on                 # Change to 'on' in production
 DJSTRIPE_WEBHOOK_SECRET="whsec_xxx"  # Get it from the section in the Stripe dashboard where you added the webhook endpoint
