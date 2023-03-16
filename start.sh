@@ -19,12 +19,14 @@ cd apps
 curl https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh --output anaconda.sh
 
 sha256sum anaconda.sh
-pwd
+#pwd
+#ls
+bash anaconda.sh -b -p $HOME/miniconda
+#pwd
+#ls
+cd root/apps/miniconda
 ls
-bash anaconda.sh -b -p $HOME/apps/miniconda
-pwd
-ls
-source ~/miniconda3/bin/activate
+source ~/miniconda/bin/activate
 conda init bash
 
 conda list
