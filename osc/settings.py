@@ -255,8 +255,8 @@ HAYSTACK_ENGINE=haystack.backends.simple_backend.SimpleEngine #(currentlu not us
 # HAYSTACK_URL=
 HAYSTACK_INCLUDE_SPELLING=True
 
-STRIPE_LIVE_PUBLIC_KEY=
-STRIPE_LIVE_SECRET_KEY=
+#STRIPE_LIVE_PUBLIC_KEY=
+#STRIPE_LIVE_SECRET_KEY=
 STRIPE_TEST_PUBLIC_KEY=pk_test_pwwR9T.....................QytrBk9
 STRIPE_TEST_SECRET_KEY=sk_test_5LiCrh.....................kbs47HE
 STRIPE_EMAIL=polow2010@gmail.com
