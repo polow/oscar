@@ -1,5 +1,6 @@
-sudo apt -y update
+sudo apt-add-repository ppa:ubuntugis/ubuntugis-unstable
+sudo apt-get -y update
+sudo apt-get install -y libgdal-dev
 
-sudo apt-get install -y libgdal1i libgdal1-dev libgdal-dev
-
-gdal-config --version
+virtualenv gdalenv
+source gdal/bin/activate
