@@ -26,7 +26,7 @@ bash anaconda.sh -b -p $HOME/miniconda
 #ls
 cd root/apps/miniconda
 ls
-source ~/miniconda/bin/activate
+source /root/miniconda/bin/activate
 conda init bash
 
 conda list
