@@ -13,16 +13,17 @@ sudo apt install -y software-properties-common
 # sudo apt install -y libgdal-dev
 sudo apt install curl -y
 
-cd /tmp/
+mkdir apps
+cd apps
 
 curl https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh --output anaconda.sh
 
 sha256sum anaconda.sh
-
-bash anaconda.sh -b -p -u $HOME/miniconda
-
-#eval "$(/Users/root/miniconda/bin/conda shell.zsh hook)"
-
+pwd
+ls
+bash anaconda.sh -b -p $HOME/apps/miniconda
+pwd
+ls
 source ~/miniconda3/bin/activate
 conda init bash
 
