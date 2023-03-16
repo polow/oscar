@@ -16,6 +16,11 @@ from .config.base_dir import BASE_DIR
 
 load_dotenv()
 
+# Path helper
+location = lambda x: os.path.join(
+    os.path.dirname(os.path.realpath(__file__)), x)
+
+
 SECRET_KEY = '@sjw(#19ix-we_-0ijndhsw4x)53vccyxx%y0xl4u$tsr*&h5b'
 
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS',
