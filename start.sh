@@ -13,16 +13,16 @@ sudo apt install -y software-properties-common
 # sudo apt install -y libgdal-dev
 sudo apt install curl -y
 
-cd /tmp
+#cd /tmp
 
-curl https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh --output anaconda.sh
+#curl https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh --output anaconda.sh
 
-sha256sum anaconda.sh
+#sha256sum anaconda.sh
 
-bash anaconda.sh -b -p $HOME/miniconda
+#bash anaconda.sh -b -p $HOME/miniconda
 
-eval "$(/Users/root/miniconda/bin/conda shell.zsh hook)"
+#eval "$(/Users/root/miniconda/bin/conda shell.zsh hook)"
 
-source ~/.bashrc
+#source ~/.bashrc
 
 conda list
