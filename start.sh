@@ -11,10 +11,11 @@ sudo apt install -y software-properties-common
 
 # sudo aptitude install -y libgdal-dev
 # sudo apt install -y libgdal-dev
+sudo apt install curl -y
 
-wget https://docs.conda.io/en/latest/miniconda.html?ref=learn-ubuntu#linux-installers -O ~/miniconda.sh
-
-bash ~/miniconda.sh -b -p $HOME/miniconda
-
-conda listeval "$(~/miniconda/bin/conda shell.bash hook)"
-conda init
+cd /tmp
+curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh
+sha256sum anaconda.sh
+bash anaconda.sh -y
+source ~/.bashrc
+conda list
