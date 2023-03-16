@@ -257,21 +257,21 @@ HAYSTACK_INCLUDE_SPELLING=True
 
 #STRIPE_LIVE_PUBLIC_KEY=
 #STRIPE_LIVE_SECRET_KEY=
-STRIPE_TEST_PUBLIC_KEY=pk_test_pwwR9T.....................QytrBk9
-STRIPE_TEST_SECRET_KEY=sk_test_5LiCrh.....................kbs47HE
+#STRIPE_TEST_PUBLIC_KEY=pk_test_pwwR9T.....................QytrBk9
+#STRIPE_TEST_SECRET_KEY=sk_test_5LiCrh.....................kbs47HE
 STRIPE_EMAIL=polow2010@gmail.com
 
-STRIPE_LIVE_MODE=oon                 # Change to 'on' in production
+STRIPE_LIVE_MODE=on                 # Change to 'on' in production
 DJSTRIPE_WEBHOOK_SECRET="whsec_xxx"  # Get it from the section in the Stripe dashboard where you added the webhook endpoint
 
-RAZOR_PAY_MERCHANT_ID=Ewb2..........M1
-RAZOR_PAY_LIVE_PUBLIC_KEY=
-RAZOR_PAY_LIVE_SECRET_KEY=
-RAZOR_PAY_TEST_PUBLIC_KEY=rzp_test_inQ.........70Z
-RAZOR_PAY_TEST_SECRET_KEY=M9eHM0YwWZYr.........xPi
-RAZOR_PAY_EMAIL=jerinisready@gmail.com
-RAZOR_PAY_LIVE_MODE=off                 # Change to 'on' in production
+#RAZOR_PAY_MERCHANT_ID=Ewb2..........M1
+#RAZOR_PAY_LIVE_PUBLIC_KEY=
+#RAZOR_PAY_LIVE_SECRET_KEY=
+#RAZOR_PAY_TEST_PUBLIC_KEY=rzp_test_inQ.........70Z
+#RAZOR_PAY_TEST_SECRET_KEY=M9eHM0YwWZYr.........xPi
+#RAZOR_PAY_EMAIL=jerinisready@gmail.com
+RAZOR_PAY_LIVE_MODE=on                 # Change to 'on' in production
 FAST_2_SMS_SENDER_ID='SMSIND'
-FAST_2_SMS_API_KEY="eTVuoO.................I12YUB..........................615eNu"
-FAST_2_SMS_TEMPLATE_ID=14782
-FCM_API_KEY=AAAAIdKjsl4:APA9.................msJ7-2FaM....8kf_D8c2.......3jj-gKG...........PCf
+#FAST_2_SMS_API_KEY="eTVuoO.................I12YUB..........................615eNu"
+#FAST_2_SMS_TEMPLATE_ID=14782
+#FCM_API_KEY=AAAAIdKjsl4:APA9.................msJ7-2FaM....8kf_D8c2.......3jj-gKG...........PCf
