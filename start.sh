@@ -15,14 +15,15 @@ sudo apt install curl -y
 
 #cd /tmp
 
-#curl https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh --output anaconda.sh
+curl https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh --output anaconda.sh
 
-#sha256sum anaconda.sh
+sha256sum anaconda.sh
 
-#bash anaconda.sh -b -p $HOME/miniconda
+bash anaconda.sh -b -p -u $HOME/miniconda
 
 #eval "$(/Users/root/miniconda/bin/conda shell.zsh hook)"
 
-#source ~/.bashrc
+source ~/miniconda3/bin/activate
+conda init bash
 
 conda list
