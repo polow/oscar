@@ -15,7 +15,7 @@ sudo apt install curl -y
 
 cd /tmp
 curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh
-sha256sum anaconda.sh
+sha256sum anaconda.sh -b
 bash anaconda.sh -y
 source ~/.bashrc
 conda list
