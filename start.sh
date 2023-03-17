@@ -13,4 +13,5 @@ export CPLUS_INCLUDE_PATH=/usr/include/gdal
 export C_INCLUDE_PATH=/usr/include/gdal
 echo "end"
 sudo apt-get install -y libheif-dev
+pkg-config libheif --modversion
 pip install GDAL==3.4.1
