@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-
+sudo apt-get install -y software-properties-common
+sudo apt-get -y update
 sudo add-apt-repository ppa:ubuntugis/ppa && sudo apt-get -y update
 # sudo apt-get -y update
 sudo apt-get install -y gdal-bin
