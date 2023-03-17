@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-sudo add-apt-repository ppa:ubuntugis/ppa && sudo apt-get update
-sudo apt-get update
-sudo apt-get install gdal-bin
+sudo add-apt-repository -y ppa:ubuntugis/ppa && sudo apt-get -y update
+sudo apt-get -y update
+sudo apt-get install -y gdal-bin
 
 ogrinfo --version
 
@@ -10,7 +10,7 @@ ogrinfo --version
 ogrinfo --version
 
 
-sudo apt-get install libgdal-dev
+sudo apt-get install -y libgdal-dev
 export CPLUS_INCLUDE_PATH=/usr/include/gdal
 export C_INCLUDE_PATH=/usr/include/gdal
 pip install GDAL
