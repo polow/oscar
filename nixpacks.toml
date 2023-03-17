@@ -1,5 +1,5 @@
 [phases.setup]
 nixPkgs = ["...", "wget","python311Packages.pip"]
-cmds = ["chmod +x start.sh", "./start.sh"]
+# cmds = ["chmod +x start.sh", "./start.sh"]
 [phases.install]
-cmds = ["sudo apt-get install -y libgdal-dev", "sudo apt-get install -y binutils", "sudo apt-get install -y libproj-dev", "export CPLUS_INCLUDE_PATH=/usr/include/gdal", "export C_INCLUDE_PATH=/usr/include/gdal", "python -m venv /opt/venv && . /opt/venv/bin/activate && pip install gdal && pip install -r requirements.txt"]
+cmds = ["sudo apt-get install -y libgdal-dev", "sudo apt-get install -y binutils", "sudo apt-get install -y libproj-dev", "export CPLUS_INCLUDE_PATH=/usr/include/gdal", "export C_INCLUDE_PATH=/usr/include/gdal", "python -m venv /opt/venv && . /opt/venv/bin/activate && pip install gdal==3.4.1 && pip install -r requirements.txt"]
