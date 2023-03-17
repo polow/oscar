@@ -5,7 +5,7 @@ sudo apt-get -y update
 sudo apt-get install -y gdal-bin
 
 ogrinfo --version
-
+pip install gcc=12.1.0
 
 ogrinfo --version
 
