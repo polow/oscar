@@ -8,6 +8,6 @@ sudo apt-get install -y vlibgdal-dev
 sudo apt-get install -y libgdal-dev
 export CPLUS_INCLUDE_PATH=/usr/include/gdal
 export C_INCLUDE_PATH=/usr/include/gdal
-gdal-config --version
 
 pip install GDAL==3.4.1
+sudo ldconfig
