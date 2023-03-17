@@ -13,9 +13,3 @@ export CPLUS_INCLUDE_PATH=/usr/include/gdal
 export C_INCLUDE_PATH=/usr/include/gdal
 
 sudo apt-get install -y libheif-dev
-pip install GDAL==3.4.1
-
-sudo ldconfig
-
-sudo find / -name libheif.so.1.so
-echo $LD_LIBRARY_PATH
