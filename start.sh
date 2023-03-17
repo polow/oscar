@@ -9,11 +9,11 @@ ogrinfo --version
 
 
 sudo apt-get install -y libgdal-dev
-export CPLUS_INCLUDE_PATH=/usr/include/gdal
+
+echo "Sssssss"
 export CPLUS_INCLUDE_PATH=/usr/include/gdal
 
 export C_INCLUDE_PATH=/usr/include/gdal
-export C_INCLUDE_PATH=/usr/include/gdal
 
-# pip install GDAL==3.0.4
+pip install GDAL==3.0.4
 # pip install GDAL
