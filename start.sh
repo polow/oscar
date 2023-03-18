@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+sudo apt -y update
+sudo apt-get install -y autoconf
+
 cd /opt
 git clone https://github.com/OSGeo/proj.4.git
 cd proj.4
