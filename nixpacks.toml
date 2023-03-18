@@ -1,5 +1,5 @@
 [phases.install]
-cmds = ["chmod +x start.sh", "python -m venv /opt/venv && . /opt/venv/bin/activate && ./start.sh && pip install -r requirements.txt", "sudo ldconfig -v"]
+cmds = ["chmod +x start.sh", "sudo add-apt-repository ppa:ubuntugis/ppa && sudo apt-get update", "sudo apt-get update", "sudo apt-get install gdal-bin", "sudo apt-get install libgdal-dev", "export CPLUS_INCLUDE_PATH=/usr/include/gdal", "export C_INCLUDE_PATH=/usr/include/gdal", "pip install GDAL==3.4.1", "python -m venv /opt/venv && . /opt/venv/bin/activate && ./start.sh && pip install -r requirements.txt"]
 # cmds = ["sudo apt update", "sudo add-apt-repository ppa:ubuntugis/ppa", "sudo apt-get update", "sudo apt-get update", "sudo apt-get install gdal-bin", "sudo apt-get install libgdal-dev", "export CPLUS_INCLUDE_PATH=/usr/include/gdal", "export C_INCLUDE_PATH=/usr/include/gdal", "pip install GDAL", "python -m venv /opt/venv && . /opt/venv/bin/activate && pip install -r requirements.txt"]
 [start]
-cmd = "python manage.py runserver && gunicorn osc.wsgi"
+cmd = "python manage.py migrate && gunicorn osc.wsgi"
