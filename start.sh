@@ -17,3 +17,5 @@ pip install GDAL==3.4.3
 sudo ldconfig -v
 cat /etc/ld.so.conf.d/*
 which gdal-config
+sudo echo "XXXXXX"
+sudo echo /usr/local/lib
