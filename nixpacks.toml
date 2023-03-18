@@ -1,4 +1,4 @@
-[phases.install]
-cmds = ["...", "python311Packages.pip"]
 [phases.setup]
+cmds = ["...", "python311Packages.pip"]
+[phases.install]
 cmds = ["chmod +x start.sh", "./start.sh", "python3 -m venv /opt/venv && . /opt/venv/bin/activate && ./start.sh && pip install GDAL==3.4.3 && pip install -r requirements.txt", "sudo echo /usr/include/gdal"]
