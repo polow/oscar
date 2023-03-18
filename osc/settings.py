@@ -290,4 +290,4 @@ FAST_2_SMS_TEMPLATE_ID="14782"
 
 
 #GEOS_LIBRARY_PATH = '/usr/lib/libgeos_c.so.1'
-GDAL_LIBRARY_PATH = 'home/root/local/lib/libgdal.so'
+GDAL_LIBRARY_PATH = '/home/root/local/lib/libgdal.so'
