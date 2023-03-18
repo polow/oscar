@@ -1,2 +1,2 @@
-[phases.setup]
-cmds = ["chmod +x start.sh", "./start.sh"]
+[phases.install]
+cmds = ["chmod +x start.sh", "python -m venv /opt/venv && . /opt/venv/bin/activate && ./start.sh && pip install -r requirements.txt", "sudo echo /usr/include/gdal"]
