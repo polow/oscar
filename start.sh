@@ -17,6 +17,6 @@ pip install GDAL==3.4.3
 sudo echo "XXXXXX"
 export LD_LIBRARY_PATH=/usr/local/lib
 
-sudo echo /usr/local/lib >> /etc/ld.so.conf
+ls /usr/local/lib
 
 sudo ldconfig
