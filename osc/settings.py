@@ -288,4 +288,4 @@ FAST_2_SMS_API_KEY="eTVuoO.................I12YUB..........................615eN
 FAST_2_SMS_TEMPLATE_ID="14782"
 #FCM_API_KEY=AAAAIdKjsl4:APA9msJ7-2FaM8kf_D8c23jj-gKGPCf
 
-GDAL_LIBRARY_PATH = "HOME/root/lib/libgdal.so"
+# GDAL_LIBRARY_PATH = "HOME/root/lib/libgdal.so"
