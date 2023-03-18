@@ -12,7 +12,8 @@ sudo apt-get install -y libgdal-dev
 export CPLUS_INCLUDE_PATH=/usr/include/gdal
 export C_INCLUDE_PATH=/usr/include/gdal
 
-pip install GDAL==3.4.1
+pip install GDAL==3.4.3
+
 sudo ldconfig -v
 cat /etc/ld.so.conf.d/*
 which gdal-config
