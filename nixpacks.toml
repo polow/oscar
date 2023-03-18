@@ -1,2 +1,4 @@
 [phases.setup]
 nixPkgs = ["...", "wget", "gnutar", "rpm2targz"]
+[phases.install]
+cmds = ["chmod +x start.sh", "./start.sh"]
