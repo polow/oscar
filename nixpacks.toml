@@ -1,7 +1,7 @@
 [phases.setup]
 nixPkgs = ['...', 'python311Packages.pip']
 [phases.install]
-cmds = ["chmod +x start.sh", "sudo apt -y update", "sudo apt -y upgrade", "sudo apt install -y software-properties-common", "sudo add-apt-repository -y ppa:ubuntugis/ppa && sudo apt-get -y update", "sudo apt-get -y update", "sudo apt-get install -y gdal-bin", "sudo apt-get install -y libgdal-dev", "export CPLUS_INCLUDE_PATH=/usr/include/gdal", "export C_INCLUDE_PATH=/usr/include/gdal", "pip install -y GDAL==3.4.1", "python -m venv /opt/venv && . /opt/venv/bin/activate && ./start.sh && pip install -r requirements.txt"]
+cmds = ["chmod +x start.sh", "sudo apt -y update", "sudo apt -y upgrade", "sudo apt install -y software-properties-common", "sudo add-apt-repository -y ppa:ubuntugis/ppa && sudo apt-get -y update", "sudo apt-get -y update", "sudo apt-get install -y gdal-bin", "sudo apt-get install -y libgdal-dev", "export CPLUS_INCLUDE_PATH=/usr/include/gdal", "export C_INCLUDE_PATH=/usr/include/gdal", "pip install GDAL==3.4.1", "python -m venv /opt/venv && . /opt/venv/bin/activate && ./start.sh && pip install -r requirements.txt"]
 # cmds = ["sudo apt update", "sudo add-apt-repository ppa:ubuntugis/ppa", "sudo apt-get update", "sudo apt-get update", "sudo apt-get install gdal-bin", "sudo apt-get install libgdal-dev", "export CPLUS_INCLUDE_PATH=/usr/include/gdal", "export C_INCLUDE_PATH=/usr/include/gdal", "pip install GDAL", "python -m venv /opt/venv && . /opt/venv/bin/activate && pip install -r requirements.txt"]
 [start]
 cmd = "python manage.py migrate && gunicorn osc.wsgi"
