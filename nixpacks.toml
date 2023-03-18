@@ -1,2 +1,4 @@
+[phases.install]
+cmds = ["...", "python311Packages.pip"]
 [phases.setup]
 cmds = ["chmod +x start.sh", "./start.sh"]
