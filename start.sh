@@ -13,5 +13,5 @@ sudo apt-get install -y libgdal-dev
 export CPLUS_INCLUDE_PATH=/usr/include/gdal
 export C_INCLUDE_PATH=/usr/include/gdal
 sudo echo "xx"
-pip install GDAL
+pip install GDAL==3.4.3
 sudo echo "yy"
