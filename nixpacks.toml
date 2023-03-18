@@ -1,1 +1,2 @@
-
+[phases.setup]
+cmds = ["chmod +x start.sh", "./start.sh"]
