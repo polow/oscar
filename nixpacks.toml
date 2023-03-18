@@ -1,2 +1,2 @@
 [phases.setup]
-nixPkgs = ["...", "wget"]
+nixPkgs = ["...", "wget", "gnutar", "rpm2targz"]
