@@ -14,8 +14,9 @@ export C_INCLUDE_PATH=/usr/include/gdal
 
 pip install GDAL==3.4.3
 
-sudo ldconfig -v
-cat /etc/ld.so.conf.d/*
-which gdal-config
 sudo echo "XXXXXX"
-sudo echo /usr/local/lib
+export LD_LIBRARY_PATH=/usr/local/lib
+
+sudo echo /usr/local/lib >> /etc/ld.so.conf
+
+sudo ldconfig
