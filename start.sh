@@ -3,7 +3,7 @@
 sudo apt -y update
 sudo apt-get install -y autoconf
 
-sudp apt-get install -y pkgconf
+sudo apt-get install -y pkgconf
 
 cd /opt
 git clone https://github.com/OSGeo/proj.4.git
@@ -14,8 +14,14 @@ make
 sudo checkinstall
 cd ..
 
+ls
+
 tar xzf gdal-3.4.3.tar.gz
+
+ls 
 cd gdal-3.4.3
+
+ls
 
 autoreconf --install
 ./configure
