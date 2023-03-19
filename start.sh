@@ -5,6 +5,5 @@ sudo apt-get install -y autoconf
 
 sudo apt-get install -y pkgconf
 
-ls
-ls
-ls
+sudo make
+sudo make install
