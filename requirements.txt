@@ -18,7 +18,7 @@ cryptography==2.9.2
 curtsies==0.3.1
 cymem==2.0.5
 defusedxml==0.6.0
-Django==2.2.12
+Django==3.2
 django-allauth==0.41.0
 django-ckeditor==6.1.0
 django-colorfield==0.4.4
