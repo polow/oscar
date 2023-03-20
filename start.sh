@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 echo "start"
-sudo lsb_release -a
+cat /etc/os-release
 lsb_release -a
+hostnamectl
 echo "end"
