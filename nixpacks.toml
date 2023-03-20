@@ -1,2 +1,2 @@
 [phases.install]
-cmds = ["chmod +x start.sh", "./start.sh", "pip install pygdal=3.4.1", "...", "pip install pygdal=3.4.1", "gdalinfo --version", "./start.sh", "gdalinfo --version", "pip install pygdal=3.4.1"]
+cmds = ["chmod +x start.sh", "./start.sh", "pip install pygdal==3.4.1", "...", "pip install pygdal==3.4.1", "gdalinfo --version", "./start.sh", "gdalinfo --version", "pip install pygdal==3.4.1"]
