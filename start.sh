@@ -1,7 +1,18 @@
 #!/usr/bin/env bash
 
 echo "start"
-cat /etc/os-release
-lsb_release -a
-hostnamectl
+
+sudo apt -y update
+sudo apt install -y python3-pip
+
+
+sudo apt-get -y update
+sudo apt-get -y install gdal-bin
+sudo apt -y update
+sudo apt -y install -y gdal-bin
+pip install GDAL
+
+
+
+
 echo "end"
